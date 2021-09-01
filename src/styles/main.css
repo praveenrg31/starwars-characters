@@ -1,0 +1,32 @@
+.main-container {
+    margin-left: 100px;
+}
+
+.character-list {
+    width: 500px;
+    margin-top: 100px;
+}
+
+.character-list>div>span {
+    font-weight: 500;
+}
+
+.film-list-container {
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.movie-list, .recent-movie {
+    display: flex;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 3.5px 5.5px 5px 0px rgba(0, 0, 0, 0.27);
+}
+
+.movie-list>span, .recent-movie>span {
+    padding: 5px;
+    font-weight: normal;
+}
