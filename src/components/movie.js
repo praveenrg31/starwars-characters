@@ -10,7 +10,7 @@ const Movie = ({ title, releaseDate, director, producer, latest }) => {
             </div>
             {latest ?
                 <div className={'latest-movie'}>
-                    most recent
+                    recent
                 </div> : null}
             <div className={'movie-details'}>
                 <div>

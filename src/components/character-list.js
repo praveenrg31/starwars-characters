@@ -14,7 +14,6 @@ const CharacterList = (props) => {
     }, []);
 
     const onCharacterChange = (item) => {
-        console.log(item);
         if(item.value) {
             props.setCharacterSelected(item.value);
         }
