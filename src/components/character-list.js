@@ -27,10 +27,10 @@ const CharacterList = (props) => {
                 </Alert>
                     : characters.length ?
                         <div>
-                            <span>Select Character:</span>
                             <ReactSelect
                                 options={characters.map(e => ({ label: e.name, value: e.id }))}
                                 onChange={onCharacterChange}
+                                placeholder={'Select Character...'}
                             />
                         </div>
                         : <div> No Characters to display</div>}

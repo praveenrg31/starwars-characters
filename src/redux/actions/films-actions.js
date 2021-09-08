@@ -50,7 +50,9 @@ export const fetchFilmList = () => {
                             {
                                 id: e.data.episode_id,
                                 title: e.data.title, 
-                                releaseDate: e.data.release_date
+                                releaseDate: e.data.release_date,
+                                director: e.data.director,
+                                producer: e.data.producer
                             }))));
                 }
                 else {
